@@ -1,6 +1,6 @@
 class calc:
-  def __init__(self,f = 0):
-    self.val = 0
+  def __init__(self,val,f = 0):
+    self.val = val
     self.f = f
     
   def add(self,val):
